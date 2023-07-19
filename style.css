@@ -89,6 +89,20 @@ h3 {
   }
 }
 
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
 @keyframes vibrate {
   0% { transform: rotate(0deg); }
   10% { transform: rotate(-1deg); }
