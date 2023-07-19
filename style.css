@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: blueviolet;
+  line-height: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(226, 43, 162);
+  line-height: 25px;
+  text-align: center;
+}
+
+body {
+  background-color:rgb(54, 249, 138);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: center;
+  background-image: url("https://media.tenor.com/KdUfzyJkXtQAAAAi/ruby-bfb.gif");
+}
+
+ul li {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.shade {
+  box-shadow: 5px 5px 6px black;
+  border-radius: 20px;
+}
+
+.container {
+  box-shadow: 2px 2px 3px black;
+  width: 600px;
+  margin: 20px auto;
+  background-color:azure;
+  padding: 30px;
+  border-radius: 4px;
+  border: 5px outset red;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(18, 1, 12);
+  line-height: 20px;
+  text-align: center;
+}
+
+.list_character {
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(135, 3, 89);
+  line-height: 15px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+img:hover {
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+
+button:hover {
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
